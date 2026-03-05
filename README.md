@@ -1,4 +1,4 @@
-# 🎮 Minecraft Telegram Bot — Google Apps Script
+#  Minecraft Telegram Bot — Google Apps Script
 
 Bot de Telegram para consultar servidores de Minecraft directamente desde Google Sheets. Desarrollado con Google Apps Script y desplegado como webhook.
 
@@ -14,7 +14,7 @@ Bot de Telegram para consultar servidores de Minecraft directamente desde Google
 
 ---
 
-## 🤖 Comandos del Bot
+##  Comandos del Bot
 
 | Comando | Descripción |
 |---------|-------------|
@@ -25,7 +25,7 @@ Bot de Telegram para consultar servidores de Minecraft directamente desde Google
 
 ---
 
-## 🗂️ Estructura del Google Sheet
+##  Estructura del Google Sheet
 
 La hoja debe llamarse **`Servidores`** y tener este formato:
 
@@ -38,7 +38,7 @@ La hoja debe llamarse **`Servidores`** y tener este formato:
 
 ---
 
-## 🚀 Instalación y configuración
+##  Instalación y configuración
 
 ### 1. Crear el Bot en Telegram
 
@@ -83,7 +83,7 @@ Luego ejecútala desde el editor de Apps Script.
 
 ---
 
-## 🛠️ Configuración local con clasp
+##  Configuración local con clasp
 
 [clasp](https://github.com/google/clasp) permite sincronizar el código entre tu PC, Apps Script y GitHub.
 
@@ -100,7 +100,7 @@ npm install -g @google/clasp
 
 ### Habilitar Apps Script API
 
-Ve a 👉 https://script.google.com/home/usersettings y activa **Google Apps Script API**
+Ve a  https://script.google.com/home/usersettings y activa **Google Apps Script API**
 
 ### Login
 
@@ -123,7 +123,7 @@ clasp clone "TU_SCRIPT_ID_AQUI"
 
 ---
 
-## 📦 Subir a GitHub
+##  Subir a GitHub
 
 ```bash
 # Inicializar repositorio
@@ -139,7 +139,7 @@ git push -u origin main
 
 ---
 
-## 🔄 Flujo de trabajo diario
+##  Flujo de trabajo diario
 
 ```bash
 # Bajar cambios de Apps Script a tu PC
@@ -156,14 +156,14 @@ git push
 
 ---
 
-## ⚠️ Seguridad
+##  Seguridad
 
 > **Nunca subas tu TOKEN de Telegram a GitHub.**
 > Usa un placeholder como `TU_TOKEN_AQUI` en el código público.
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 minecraft-telegram-bot/
